@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.login-section {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: #fff;
+}
+
+.image-section {
+    flex: 1;
+    background-image: url('https://images.pexels.com/photos/1227571/pexels-photo-1227571.jpeg?cs=srgb&dl=pexels-freestockpro-1227571.jpg&fm=jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+/* ... rest of your CSS remains the same ... */
